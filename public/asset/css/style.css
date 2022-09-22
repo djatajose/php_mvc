@@ -78,3 +78,8 @@ body { font:400 16px/1.3 Verdana, sans-serif;color:#464646; background-color: #f
 .abonne ul li {
     padding: 1rem;
 }
+
+.error {
+    display: block;
+    color: red;
+}

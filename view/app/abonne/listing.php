@@ -1,4 +1,5 @@
 <h2>Liste des abonnées</h2>
+<p><a href="<?= $view->path('add') ?>">Ajouter un abonne</p></a>
 <p>Nombre d'abonnées : <?=$count; ?></p>
 
 <section class="abonne">
