@@ -1,9 +1,10 @@
 <?php
 
-$routes = array(
-    array('home','default','index'),
-    array('abonnes','abonne','listing'),
-);
+$routes = [
+    ['home','default','index'],
+    ['abonnes','abonne','listing'],
+    ['abonne','abonne','show',['id']],
+];
 
 
 

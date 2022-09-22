@@ -6,5 +6,8 @@
         <div>
             <p><?= $abonne->nom; ?></p>
         </div>
+        <ul>
+            <li><a href="<?= $view->path('abonne',[$abonne->id]); ?>">Show</a></li>
+        </ul>
     <?php } ?>
 </section>
