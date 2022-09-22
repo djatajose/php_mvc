@@ -29,6 +29,12 @@ class AbonneController extends Controller
         ]);
     }
 
+    public function delete($id) {
+        $abonne = $this->isAbonneExistOr404($id);
+        AbonneModel::delete($id);
+        $this->redirect('abonnes');
+    }
+
     private function isAbonneExistOr404($id) {
         $abonne = AbonneModel::findById($id);
         if (empty($abonne)) {

@@ -1,9 +1,13 @@
 <?php
 
 $routes = [
+    // Abonne
     ['home','default','index'],
     ['abonnes','abonne','listing'],
-    ['abonne','abonne','show',['id']],
+    ['show','abonne','show',['id']],
+    ['edit','abonne','edit',['id']],
+    ['delete','abonne','delete',['id']],
+    ['add','abonne','add',],
 ];
 
 
