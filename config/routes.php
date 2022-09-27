@@ -7,7 +7,7 @@ $routes = [
     ['show','abonne','show',['id']],
     ['edit','abonne','edit',['id']],
     ['delete','abonne','delete',['id']],
-    ['add','abonne','add',],
+    ['add','abonne','add']
 ];
 
 
